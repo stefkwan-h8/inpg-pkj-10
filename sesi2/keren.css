@@ -1,0 +1,12 @@
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: rgb(182, 255, 255);
+}
+
+#text-inline {
+    font-weight: bolder;
+    font-size: 32px;
+}

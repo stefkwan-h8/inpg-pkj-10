@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sesi 2</title>
+        <style>
+            table, tr, td, th {
+                border: 1px solid black;
+            }
+        </style>
+        <link rel="stylesheet" href="keren.css">
+    </head>
+
+    <body>
+        <section class="orange">                
+            <h1>Inspect Element</h1>
+            <p>dengan pergi ke browser, klik kanan, dan memilih inspect element, kita bisa melihat HTML sebuah halaman web. HTML halaman web bisa terlihat sangat ramai, tapi jika diperhatikan kalian akan bisa menemukan elemen html, head, title, dan body.</p>
+            <p>HTML yang kita buat tidak akan serumit itu, jadi tenang saja.</p>
+            <p>Pergi ke halaman  <a href="https://www.hacktiv8.com/">Hacktiv8</a></p>
+            <p>Buka halaman <a href="https://www.classroom.google.com/" target="_blank">Google Classroom</a> di tab baru</p>
+        </section>
+
+        <section class="blue">                
+            <h1>Tag HTML</h1>
+
+            <div>
+                <h2>yang akan dipelajari</h2>
+                <ol>
+                    <li>Memuat Gambar</li>
+                    <li>Membuat Link</li>
+                    <li>Heading / Penjudulan</li>
+                    <li>Membuat Daftar List</li>
+                    <li>Memahami Tag &lt;div&gt; dan &lt;span&gt;</li>
+                    <li>Memahami Form</li>
+                    <li>Memahami Tabel</li>
+                </ol>
+            </div>
+
+            <div>                    
+                <h2>yang sudah dicoba</h2>
+                <ol>
+                    <li>html</li>
+                    <li>head</li>
+                    <li>title</li>
+                    <li>body</li>
+                    <li>h1</li>
+                    <li>ol, ul</li>
+                    <li>li</li>
+                    <li>img</li>
+                    <li>div</li>
+                    <li>span</li>
+                    <li>section</li>
+                    <li>form</li>
+                    <li>input, dengan type:
+                        <ul>
+                            <li>text</li> 
+                            <li>number</li> 
+                            <li>email</li> 
+                            <li>password</li> 
+                            <li>submit</li>
+                        </ul>
+                    </li>
+                    <li>br</li>
+                    <li>table
+                        <ul>
+                            <li>tr</li>                            
+                            <li>th</li>
+                            <li>td</li>
+                        </ul>
+                    </li>
+                    <li>style di dalam head</li>
+                    <li>a, sebuah link</li>
+                </ol>
+            </div>
+
+            <h1>Atribut Tag HTML</h1>
+            <p>tag html bisa polos, sendirian, bisa juga punya atribut. contohnya tag img punya atribut src dan alt. tag input punya atribut type. form punya action. a punya href.</p>
+            <p>Kita bisa menambahkan atribut ke sebuah tag html. ada atribut yang dimiliki dan bisa ditambah ke semua tag html yaitu: id dan class.</p>
+            <p>id ibarat KTP, id sebuah tag html harus unik, tidak boleh sharing nama id yang sama dengan elemen html lain.</p>
+            <p>class ibarta grup, wa grup, kelas, batch, class yang sama bisa di miliki banyak elemen html berbeda. satu elemen html bisa punya banyak class.</p>
+        </section>
+
+        <section class="orange">            
+            <h1>Sedikit background tentang CSS</h1>
+            <p>menambahkan atribut style kedalam sebuah elemen HTML membuat kita bisa menulis CSS di dalamnya dan memberi style ke elemen tersebut. Tetapi, ini adalah cara menulis CSS yang paling BURUK. Selain sulit untuk diatur saat sudah banyak HTML tag dan CSS nya, sudah di update, susah di track, juga sangat berantakan. Biasanya para professional web developer akan membuat file CSS berbeda khusus untuk tempat tulis CSS. HTML nya bersih dari CSS</p>
+
+            <p>Cara menulis CSS yang sedikit lebih baik adalah dengan tag style di dalam head.</p>
+
+            <p>Cara terbaik, paling rapi, paling professional adalah dengan membuat file CSS terpisah, yang kemudian di link dengan file HTML kita.</p>
+
+            <h1>Cara pemakaian CSS</h1>
+            <p>cara nulis css di html ada tiga cara: langsung di tag html pakai atribut style, pakai tag style di head, pakai file .css terpisah yang kemudian di link dengan tag link di head</p>
+            <p>CSS sendiri bisa styling 3 hal berbeda: tag html, id, class</p>
+            <p>property CSS yang bisa di styling ada banyak, termasuk: font, warna font, warna background, size font, ukuran, border, margin, padding, ...</p>
+        </section>
+
+        <section class="blue">
+            <h1>Table</h1>
+            <table style="border: 1px solid black;">
+                <tr>
+                    <th>No.</th>
+                    <th>Nama</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Andi</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Budi</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Cindy</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="orange">                
+            <h1>Inline dan Block</h1>
+            <p>ada elemen jenis blok yang mengambil keseluruhan satu baris, septi div, h1, dan p</p>
+            <p>ada elemen jenis inline yang bisa sharing satu baris, seperti img. img, kalau muat, bakal nempel2 sama img berikutnya di baris yang sama.</p>
+            <p>teman div yang sama2 tidak punya arti tertentu adalah span. bedanya, kalau div elemen Blok, span adalah elemen <span id="text-inline">inline</span>. misal ada yang mau aku pisahkan di sebuah blok text di dalam paragraph, bisa pakai span. kalau pakai div dia akan pisahin dan kasih banyak space, karena dia ambil seluruh baris. kalau span, dia ambil secukupnya saja.</p>
+        </section>
+
+        <section class="blue white">
+            <h1>Sign Up!</h1>
+            <form action="thankyou.html">
+                <label>nama</label>
+                <input type="text">
+                <br>
+
+                <label>umur</label>
+                <input type="number">
+
+                <div>                        
+                    <label>email</label>
+                    <input type="email">
+                </div>
+
+                <label>password</label>
+                <input type="password">
+
+                <input type="submit" value="sign up">
+            </form>
+        </section>
+
+        <section class="orange">                
+            <h1>Membuat Gambar</h1>
+            <div>
+                <img src="h8.png" alt="logo H8">
+            </div>
+            <img src="h8.png" alt="logo H8">
+            <img src="h8.png" alt="logo H8">
+        </section>
+
+    </body>
+</html>

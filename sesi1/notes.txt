@@ -1,0 +1,51 @@
+absensi, sertifikat, jadwal kelas, dan lainnya --> Google Classroom
+
+1. Instalasi Visual Studio Code (atau aplikasi untuk tulis code lainnya)
+    - biar rapi, setelah buka Visual Studio Code, pilih "open folder"
+    - pilih folder tempat mau simpan file kelas ini
+
+2. Bikin satu file baru, kasih nama "index.html"
+    - edit file HTML nya untuk lebih banyak isinya
+    - bisa dibuka di browser untuk lihat hasilnya
+    - bisa klik kanan di browser dan pilih inspect untuk lihat HTML
+
+3. Tag HTML
+    - dokumentasi formal bisa dilihat di https://www.w3schools.com/html/
+    - ada banyak, yang paling mendasar:
+    - <html></html> untuk menandakan ini adalah file HTML
+        - <head></head> untuk mengedit kepala website
+            - <title></title> untuk mengedit judul website di tab nya
+        - <body></body> untuk mengedit konten website
+            - di dalam body bisa langsung ketik untuk mengubah konten website
+            - <h1></h1> tag untuk header, bold, tulisan besar
+            - <p></p> tag untuk paragraf, text kecil dan banyak
+            - <img src=""> untuk menaruh gambar
+    - tag html bisa punya atribut, extra informasi tentang tag html tersebut
+        - contohnya, tag html manapun, bisa punya nomor ktp atribut "id"
+        - tag html manapun, bisa punya grup, nama grup, atribut "class"
+        - tag img, punya atribut "src" untuk kasih tau file gambarnya ambil darimana
+        - tag img, punya atribut "alt" adalah text yang dimunculkan kalau gambarnya gk ketemu
+
+
+extra
+- gambar bisa diambil pakai link, contohnya https://picsum.photos/
+- gambar bisa diambil dari gambar yang sudah kita download, boleh coba download di https://unsplash.com/ (jangan lupa kasih info gambar ini diambil siapa)
+
+
+TAG HTML
+a. Memuat Gambar
+    - img
+    - punya atribut src untuk isi link ke gambar online (kyk picsum) atau ke gambar offline (download dulu gambarnya)
+b. Membuat Link
+    - a
+    - punya atribut href untuk isi link nya
+c.  Heading / Penjudulan
+    - h1
+    - h2, h3, h4, h5, h6
+d.  Membuat Daftar List
+    - ul (unordered list, untuk yg bulat bulat)
+    - ol (ordered list, untuk urut seperti 1,2,3 atau a,b,c)
+    - setiap item di dalam tag ul atau ol perlu kita kasih tag <li></li>
+e.  Memahami Tag <div>
+f.  Memahami Form
+g.  Memahami Tabel
